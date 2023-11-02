@@ -10,10 +10,6 @@
 </head>
 <body class="main">
 <h1 class="block main-title">
-	<svg preserveAspectRatio="none">
-		<text lengthAdjust="spacingAndGlyphs">ПОРТРЕТ</text>
-	</svg>
-
 	<span class="main-title__dynamic stretched">ПОРТРЕТ</span>
 	<span class="main-title__dynamic stretched">ШИРОКОЙ</span>
 	<span class="main-title__dynamic stretched">СЕМЬИ</span>
@@ -21,7 +17,9 @@
 <p class="block description">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare quam viverra orci sagittis eu volutpat. Libero nunc consequat interdum varius sit amet. Suspendisse in est ante in nibh. In pellentesque massa placerat duis ultricies. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Dictumst quisque sagittis purus sit amet. Feugiat in fermentum posuere urna nec. Nec tincidunt praesent semper feugiat. Quis auctor elit sed vulputate mi sit. Pretium fusce id velit ut tortor. Non arcu risus quis varius quam quisque. Ac tortor dignissim convallis aenean et tortor. Feugiat in ante metus dictum at tempor commodo ullamcorper a.
 </p>
-<p class="warning warning__red">ВНИМАНИЕ / 注意：</p>
+<div class="block">
+	<p class="warning warning_red">ВНИМАНИЕ</p>
+</div>
 <p class="block description description_bold">
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare quam viverra orci sagittis eu volutpat. Libero nunc consequat interdum varius sit amet. Suspendisse in est ante in nibh. In pellentesque massa placerat duis ultricies. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Dictumst quisque sagittis purus sit amet. Feugiat in fermentum posuere urna nec. Nec tincidunt praesent semper feugiat. Quis auctor elit sed vulputate mi sit. Pretium fusce id velit ut tortor. Non arcu risus quis varius quam quisque. Ac tortor dignissim convallis aenean et tortor. Feugiat in ante metus dictum at tempor commodo ullamcorper a.
 </p>
@@ -35,13 +33,15 @@
 	</div>
 </div>
 <div class="block vertical-list">
-	<p>Как добраться:</p>
+	<p class="vertical-list__label">Как добраться:</p>
 	<div class="vertical-list__item">
 		<a href="" class="button button_black">高德地图</a>
+	</div>
+	<div class="vertical-list__item">
 		<a href="" class="button button_black">百度地图</a>
 	</div>
-	<div class="vertical-list__item"></div>
 </div>
+</body>
 <footer class="footer">
 	<div class="footer__wrapper">
 		<div class="footer__small-text">Куратор: ***</div>
@@ -49,17 +49,16 @@
 		<div class="footer__small-text">Сверстано: ***</div>
 	</div>
 </footer>
-<div class="block block_fixed">
-	<form class="form">
-		<label class="form__label">
-			Расшифровать страницу:
-			<input type="text" class="form__input" placeholder="Пароль">
-		</label>
-		<div class="form__error"></div>
-		<button type="submit">Расшифровать</button>
-	</form>
-</div>
-</body>
+<!--<div class="block block_fixed">-->
+<!--	<form class="form">-->
+<!--		<label class="form__label">-->
+<!--			Расшифровать страницу:-->
+<!--			<input type="text" class="form__input" placeholder="Пароль">-->
+<!--		</label>-->
+<!--		<div class="form__error"></div>-->
+<!--		<button type="button button_black submit">Расшифровать</button>-->
+<!--	</form>-->
+<!--</div>-->
 </html>
 
 <!-- Попробовать зашифровать весь текст на странице и ссылки. Вывести форму для ввода пароля. После этого Текст будет расшифрован -->
