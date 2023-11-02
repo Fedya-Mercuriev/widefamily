@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="./src/vendor/normalize.css">
+	<link rel="stylesheet" href="./src/css/main.css">
+	<script src="./src/vendor/jquery-3.7.1.min.js"></script>
 	<title>***</title>
 </head>
-<body>
-<h1>ТЕСТ</h1>
+<body class="main">
+<h1 class="block main-title">
+	<svg preserveAspectRatio="none">
+		<text lengthAdjust="spacingAndGlyphs">ПОРТРЕТ</text>
+	</svg>
+
+	<span class="main-title__dynamic stretched">ПОРТРЕТ</span>
+	<span class="main-title__dynamic stretched">ШИРОКОЙ</span>
+	<span class="main-title__dynamic stretched">СЕМЬИ</span>
+</h1>
+<p class="block description">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare quam viverra orci sagittis eu volutpat. Libero nunc consequat interdum varius sit amet. Suspendisse in est ante in nibh. In pellentesque massa placerat duis ultricies. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Dictumst quisque sagittis purus sit amet. Feugiat in fermentum posuere urna nec. Nec tincidunt praesent semper feugiat. Quis auctor elit sed vulputate mi sit. Pretium fusce id velit ut tortor. Non arcu risus quis varius quam quisque. Ac tortor dignissim convallis aenean et tortor. Feugiat in ante metus dictum at tempor commodo ullamcorper a.
+</p>
+<p class="warning warning__red">ВНИМАНИЕ / 注意：</p>
+<p class="block description description_bold">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare quam viverra orci sagittis eu volutpat. Libero nunc consequat interdum varius sit amet. Suspendisse in est ante in nibh. In pellentesque massa placerat duis ultricies. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Dictumst quisque sagittis purus sit amet. Feugiat in fermentum posuere urna nec. Nec tincidunt praesent semper feugiat. Quis auctor elit sed vulputate mi sit. Pretium fusce id velit ut tortor. Non arcu risus quis varius quam quisque. Ac tortor dignissim convallis aenean et tortor. Feugiat in ante metus dictum at tempor commodo ullamcorper a.
+</p>
+<div class="block">
+	<div class="clock">
+		<div class="clock__item clock__hour">00</div>
+		<div class="clock__item clock__separator">:</div>
+		<div class="clock__item clock__minute">00</div>
+		<div class="clock__item clock__separator">:</div>
+		<div class="clock__item clock__second">00</div>
+	</div>
+</div>
+<div class="block vertical-list">
+	<div class="vertical-list__item"></div>
+	<div class="vertical-list__item"></div>
+</div>
+<footer class="footer">
+	<div class="footer__wrapper">
+		<div class="footer__small-text">Куратор: ***</div>
+		<div class="footer__small-text">Помощь и раскрутка: ***</div>
+		<div class="footer__small-text">Сверстано: ***</div>
+	</div>
+</footer>
+<div class="block block_fixed">
+	<form class="form">
+		<label class="form__label">
+			Расшифровать страницу:
+			<input type="text" class="form__input" placeholder="Пароль">
+		</label>
+		<div class="form__error"></div>
+		<button type="submit">Расшифровать</button>
+	</form>
+</div>
 </body>
 </html>
+
+<!-- Попробовать зашифровать весь текст на странице и ссылки. Вывести форму для ввода пароля. После этого Текст будет расшифрован -->
+<!-- Добавить приветственный текст, краткое описание, счетчик, показывающий сколько осталось времени до начала (когда настанет время - показывать надпись "Выставка идет"), координаты -->
