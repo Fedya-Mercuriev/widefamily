@@ -47,6 +47,10 @@ p {
     font-weight: 900;
 }
 
+.description_red {
+    color: red;
+}
+
 .warning {
     box-sizing: border-box;
     padding: 0 20px;

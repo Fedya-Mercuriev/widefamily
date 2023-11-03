@@ -1,5 +1,5 @@
 function counter() {
-    const countDownDate = new Date("Nov 3, 2023 14:10:00").getTime();
+    const countDownDate = new Date("Nov 4, 2023 14:10:00").getTime();
     const now = new Date().getTime();
     const distance = countDownDate - now;
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -10,7 +10,7 @@ function counter() {
     const $minutes = $('.clock__minute');
     const $seconds = $('.clock__second');
 
-    $hours.text(hours.toString().length === 1 ? '0' + hours : hours);
+    $hours.text((hours + (days * 24)).toString().length === 1 ? '0' + (hours + (days * 24)) : (hours + (days * 24)));
     $minutes.text(minutes.toString().length === 1 ? '0' + minutes : minutes);
     $seconds.text(seconds.toString().length === 1 ? '0' + seconds : seconds);
 }
